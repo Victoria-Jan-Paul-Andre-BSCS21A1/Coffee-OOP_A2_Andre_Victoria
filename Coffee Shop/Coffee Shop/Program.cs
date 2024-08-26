@@ -7,6 +7,9 @@ namespace Coffee_Shop
     {
         static void Main(string[] args)
         {
+
+            Print("Welcome to the Coffee Shop!");
+
             Dictionary<string, double> menu = new Dictionary<string, double>(); //store itemName and itemPrice
             List<string> productOrder = new List<string>(); //store the orders by the user
 
@@ -14,7 +17,7 @@ namespace Coffee_Shop
             {
                 try
                 {
-                    Print("Welcome to the Coffee Shop!");
+                    
                     Print("\n1. Add Menu Item\r\n2. View Menu\r\n3. Place Order\r\n4. View Order\r\n5. Calculate Total\r\n6. Exit");
 
                     Console.Write("\nSelect an option: ");
